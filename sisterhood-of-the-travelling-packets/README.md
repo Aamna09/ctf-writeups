@@ -24,6 +24,8 @@ The main page contained navigation links to:
 - `crew.php`
 - `about.php`
 
+![Pantalones leak site](./images/01-home.jpg)
+
 The `crew.php` page identified four members of the fictional ransomware collective:
 
 | Username | Role |
@@ -69,6 +71,7 @@ api_keys_internal.yaml
 customers.sql
 route_algorithms_PROPRIETARY.sql
 ```
+![Leak files](./images/02-leak-files-aetherflow.png)
 
 The QuantumCore archive contained:
 
@@ -77,6 +80,7 @@ employees.sql
 financial_summary_q1_2026.sql
 internal_comms.csv
 ```
+![Leak files](./images/02-leak-files-quantumcore.png)
 
 The files appeared to contain realistic corporate information.
 
@@ -103,6 +107,8 @@ The `-a` option causes hidden files to be displayed.
 The `.exfil.sh` file was a shell script used to send stolen files to the ransomware group's infrastructure.
 
 Reading the file rather than executing it revealed several important details.
+
+![Exfiltration script](./images/04-exfil-script.jpg)
 
 The script contained a panel URL and a panel key.
 
@@ -215,6 +221,8 @@ We therefore requested a conversation using:
 ```
 
 The API returned internal messages between members of Pantalones.
+
+![Internal attacker communications](./images/05-internal-comms.jpg)
 
 This was another major OPSEC failure: sensitive internal communications were accessible through the API.
 
@@ -429,6 +437,8 @@ flare{pantal0n3s_g0t_pantsed_2026}
 ## Additional OPSEC Findings
 
 The downloadable archives contained additional evidence of poor operational security.
+
+![Proprietary leaked data](./images/06-proprietary-data.jpg)
 
 The AetherFlow archive included:
 
