@@ -108,9 +108,7 @@ ls -la
 
 revealed a hidden file:
 
-```text
-.exfil.sh
-```
+![Hidden File](./images/03-hidden-files.jpg)
 
 The `-a` option causes hidden files to be displayed.
 
