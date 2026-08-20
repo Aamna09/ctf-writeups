@@ -1,12 +1,26 @@
 # Sisterhood of the Travelling Packets — CTF Writeup
 
-> Beginner web/forensics CTF focused on ransomware infrastructure, OPSEC failures, web enumeration, and credential discovery.
+> Beginner web/forensics CTF focused on investigating a simulated ransomware group's Tor-based infrastructure, identifying OPSEC failures, enumerating exposed web services, and discovering leaked credentials.
 
 ## Challenge Overview
 
-The challenge presents a simulated ransomware leak website operated by a group called **Pantalones**.
+The challenge presents a simulated ransomware leak website operated by a group called **Pantalones** and hosted as a Tor `.onion` service.
 
-The objective is to investigate the website and its leaked files, identify operational-security mistakes made by the attackers, and ultimately retrieve the flag.
+The goal is to investigate the group's infrastructure and leaked data, uncover their operational-security mistakes, and ultimately retrieve the flag.
+
+The challenge combines several beginner-friendly techniques:
+
+- Tor and `.onion` services
+- Web reconnaissance
+- `robots.txt` enumeration
+- Source-code inspection
+- Hidden-file discovery
+- API enumeration
+- Internal message enumeration
+- Base64 decoding
+- Credential discovery
+- Administrative-panel access
+- OPSEC analysis
 
 The flag format is:
 
