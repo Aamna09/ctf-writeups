@@ -6,7 +6,7 @@
 
 **Sisterhood of the Travelling Packets** is a beginner-friendly Capture the Flag challenge powered by **Flare & SANS** in partnership with **WiCyS (Women in CyberSecurity)**.
 
-The challenge ran as a virtual, browser-based CTF from **August 17–19, 2026**, and was designed for participants with little or no prior CTF experience. The challenge specifically required the Tor Browser to access the simulated ransomware infrastructure. :contentReference[oaicite:1]{index=1}
+The challenge ran as a virtual, browser-based CTF from **August 17–19, 2026**, and was designed for participants with little or no prior CTF experience. The challenge specifically required the Tor Browser to access the simulated ransomware infrastructure.
 
 The challenge presents a simulated ransomware leak website operated by a group called **Pantalones** and hosted as a Tor `.onion` service.
 
